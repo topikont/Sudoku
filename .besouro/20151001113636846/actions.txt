@@ -3,3 +3,8 @@ RefactoringAction 1443688759264 TestSudokuVerifier.java ADD void test2() METHOD
 EditAction 1443688763206 TestSudokuVerifier.java 251 2 2 0
 RefactoringAction 1443688788388 TestSudokuVerifier.java ADD SudokuVerifier verifier FIELD
 EditAction 1443688790907 TestSudokuVerifier.java 292 2 2 0
+CompilationAction 1443688791181 TestSudokuVerifier.java
+CompilationAction 1443688794874 TestSudokuVerifier.java
+CompilationAction 1443688795514 TestSudokuVerifier.java
+RefactoringAction 1443688800947 TestSudokuVerifier.java ADD void init() METHOD
+EditAction 1443688806816 TestSudokuVerifier.java 360 3 3 0

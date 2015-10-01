@@ -6,9 +6,12 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
-	SudokuVerifier verifier;
+	private SudokuVerifier verifier;
 	
 	@Before
+	public void init() {
+		verifier = new SudokuVerifier();
+	}
 	
 	
 	@Test
