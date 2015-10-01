@@ -2,6 +2,9 @@ package org.univoulu.tol.sqatlab.sudoku;
 
 public class SudokuVerifier {
 
+	public static final int RESULT_CORRECT = 0;
+	public static final int RESULT_INCORRECT_RULE_1 = -1
+	
 	public int verify(String candidateSolution) {
 		if(!checkRow(candidateSolution)) {
 			return -3;
