@@ -34,13 +34,6 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testIncorrectSudokuString() {
-		int result = verifier.verify(INCORRECT_STRING);
-		
-		assertEquals(SudokuVerifier.RESULT_INCORRECT_ROW_PROBLEM, result);
-	}
-	
-	@Test
 	public void testIncorrectSudokuStringIncorrectColumns() {
 		int result = verifier.verify(INCORRECT_STRING_COLUMN_PROBLEM);
 		
