@@ -76,26 +76,6 @@ public class SudokuVerifier {
 				}
 			}
 		}
-				
-		for(int i = 0; i < 9; i++) {
-			String subString = "";
-			
-			int beginIndex = i * 3;
-			int endIndex = beginIndex + 2;
-			subString = subString + candidateSolution.substring(beginIndex, endIndex);
-			
-			beginIndex = i * 3 + 9;
-			endIndex = beginIndex + 2;
-			subString = subString + candidateSolution.substring(beginIndex, endIndex);
-			
-			beginIndex = i * 3 + 18;
-			endIndex = beginIndex + 2;
-			subString = subString + candidateSolution.substring(beginIndex, endIndex);
-			
-			if(!checkSubString(subString)) {
-				return false;
-			}
-		}
 		
 		return true;
 	}
