@@ -28,6 +28,7 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 9; i++) {
 			int count = 0;
+			
 			for(int k = 0; i < 9; i++) {
 				
 				String digit = String.valueOf(i);
