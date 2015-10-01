@@ -19,9 +19,9 @@ public class SudokuVerifier {
 			return RESULT_INCORRECT_POSITIVE_DIGIT_PROBLEM;
 		} else if( !checkSubGrid(candidateSolution) ) {
 			return RESULT_INCORRECT_SUBGRID_PROBLEM;
-		} else if(!checkRow(candidateSolution)) {
+		} else if(!checkRows(candidateSolution)) {
 			return RESULT_INCORRECT_ROW_PROBLEM;
-		} else if( !checkColumn(candidateSolution) ) {
+		} else if( !checkColumns(candidateSolution) ) {
 			return RESULT_INCORRECT_COLUMN_PROBLEM;
 		}
 		
@@ -49,7 +49,7 @@ public class SudokuVerifier {
 			String subString = "";
 			
 			for(int k = 0; k < 9; k++) {
-				subString = subString + candidateSolution.charAt(k*9+i);
+				subString = subString + candidateSolution.charAt(i * 9 + k);
 			}
 			
 			if(!checkSubString(subString)) {
