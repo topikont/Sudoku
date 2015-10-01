@@ -310,3 +310,4 @@ UnitTestCaseAction 1443692175065 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443692175065 TestSudokuVerifier OK
 RefactoringAction 1443692298304 TestSudokuVerifier.java ADD String INCORRECT_STRING_ROW_PROBLEM FIELD
 EditAction 1443692298594 TestSudokuVerifier.java 1849 6 11 5
+EditAction 1443692305315 TestSudokuVerifier.java 1930 6 11 5
