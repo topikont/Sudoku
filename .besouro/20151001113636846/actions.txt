@@ -434,3 +434,6 @@ EditAction 1443696109519 SudokuVerifier.java 2744 5 10 0
 UnitTestCaseAction 1443696113997 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443696113997 TestSudokuVerifier FAIL
 EditAction 1443696305056 TestSudokuVerifier.java 2775 8 15 7
+UnitTestCaseAction 1443696310215 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443696310215 TestSudokuVerifier FAIL
+RefactoringAction 1443696327925 TestSudokuVerifier.java REMOVE import com.sun.xml.internal.ws.policy.spi.AssertionCreationException IMPORT
