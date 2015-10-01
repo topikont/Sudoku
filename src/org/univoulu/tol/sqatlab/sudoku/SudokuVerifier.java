@@ -65,13 +65,13 @@ public class SudokuVerifier {
 				String subString = "";
 				
 				int beginIndex = i*27 + k*3;
-				int endIndex = beginIndex  + 2;
+				int endIndex = beginIndex  + 3;
 				
 				subString = subString + candidateSolution.substring(beginIndex, endIndex);
 				subString = subString + candidateSolution.substring(beginIndex + 9, endIndex + 9);
 				subString = subString + candidateSolution.substring(beginIndex + 18, endIndex + 18);
 				
-				System.out.println("Substring length: " + subString.length() + "; subString: " + sub);
+				System.out.println("Substring length: " + subString.length() + "; subString: " + subString);
 				
 				if(!checkSubString(subString)) {
 					return false;
