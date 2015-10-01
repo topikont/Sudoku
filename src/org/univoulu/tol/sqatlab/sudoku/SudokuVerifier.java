@@ -43,7 +43,7 @@ public class SudokuVerifier {
 		return true;
 	}
 	
-	private Boolean checkColumn(String candidateSolution) {
+	private Boolean checkColumns(String candidateSolution) {
 		
 		for(int i = 0; i < 9; i++) {
 			String subString = "";
