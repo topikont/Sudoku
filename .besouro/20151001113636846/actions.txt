@@ -193,3 +193,7 @@ UnitTestCaseAction 1443690743584 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443690743584 TestSudokuVerifier OK
 RefactoringAction 1443690805120 SudokuVerifier.java ADD Boolean check FIELD
 EditAction 1443690809842 SudokuVerifier.java 1000 4 6 0
+CompilationAction 1443690810115 SudokuVerifier.java
+CompilationAction 1443690817077 SudokuVerifier.java
+CompilationAction 1443690817239 SudokuVerifier.java
+EditAction 1443690821097 SudokuVerifier.java 956 4 7 0

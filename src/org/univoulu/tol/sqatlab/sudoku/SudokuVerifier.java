@@ -16,8 +16,6 @@ public class SudokuVerifier {
 			int endIndex = beginIndex + 9;
 			String subString = candidateSolution.substring(beginIndex, endIndex);
 			
-			System.out.println("Checking substring " + subString);
-			
 			if( !checkSubString(subString) ) {
 				return false;
 			}
@@ -28,6 +26,8 @@ public class SudokuVerifier {
 	
 	private Boolean checkColumn() {
 		
+		
+		return true;
 	}
 	
 	private Boolean checkSubString(String subString) {
