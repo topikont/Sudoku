@@ -39,7 +39,7 @@ public class SudokuVerifier {
 			}
 			
 			if(count != 1) {
-				
+				return false;
 			}
 		}
 		
