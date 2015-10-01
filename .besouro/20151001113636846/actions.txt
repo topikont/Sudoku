@@ -410,3 +410,8 @@ RefactoringAction 1443695428612 SudokuVerifier.java RENAME RESULT_INCORRECT_POSI
 EditAction 1443695429472 SudokuVerifier.java 2637 5 10 0
 EditAction 1443695488560 SudokuVerifier.java 2689 5 10 0
 EditAction 1443695494535 SudokuVerifier.java 2736 5 10 0
+RefactoringAction 1443695522133 TestSudokuVerifier.java ADD void testIncorrectSudokuStringUnvalidDigitsInString() METHOD
+RefactoringAction 1443695541711 TestSudokuVerifier.java ADD String CORRECT_STRING/2 FIELD
+RefactoringAction 1443695551238 TestSudokuVerifier.java RENAME CORRECT_STRING/2=>String INCORRECT_STRING/2 FIELD
+RefactoringAction 1443695553754 TestSudokuVerifier.java RENAME INCORRECT_STRING/2=>String INCORRECT_STRING_ FIELD
+EditAction 1443695560720 TestSudokuVerifier.java 2670 8 13 6
