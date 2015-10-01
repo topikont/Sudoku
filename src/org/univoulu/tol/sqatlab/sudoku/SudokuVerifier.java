@@ -5,6 +5,8 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		if(!checkRow(candidateSolution)) {
 			return -3;
+		} else if( !checkColumn(candidateSolution) ) {
+			return -4;
 		}
 		return 1;
 	}
