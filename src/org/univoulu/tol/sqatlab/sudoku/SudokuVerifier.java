@@ -15,6 +15,8 @@ public class SudokuVerifier {
 			return RESULT_INCORRECT_STRING_TOO_SHORT;
 		} else if( candidateSolution.length() > 81) {
 			return RESULT_INCORRECT_STRING_TOO_LONG;
+		} else if( candidateSolution.contains("0")) {
+			
 		} else if( !checkSubGrid(candidateSolution) ) {
 			return RESULT_INCORRECT_SUBGRID_PROBLEM;
 		} else if(!checkRow(candidateSolution)) {
