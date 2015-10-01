@@ -6,4 +6,8 @@ public class SudokuVerifier {
 		// returns 1 if the candidate solution is correct
 		return 1;
 	}
+	
+	private int checkRow() {
+		
+	}
 }
