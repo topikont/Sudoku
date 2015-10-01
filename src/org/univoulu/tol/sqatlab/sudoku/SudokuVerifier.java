@@ -26,7 +26,8 @@ public class SudokuVerifier {
 		//subString.
 		
 		for(int i = 0; i < 9; i++) {
-			
+			int count = 0;
+			count = StringUtils
 		}
 		
 		return true;
