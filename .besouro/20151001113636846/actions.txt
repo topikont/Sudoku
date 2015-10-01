@@ -234,3 +234,19 @@ EditAction 1443691603690 SudokuVerifier.java 1891 4 8 0
 RefactoringAction 1443691612264 TestSudokuVerifier.java ADD void test FIELD
 EditAction 1443691622975 TestSudokuVerifier.java 850 4 5 2
 EditAction 1443691641301 TestSudokuVerifier.java 947 4 5 2
+CompilationAction 1443691641564 TestSudokuVerifier.java
+CompilationAction 1443691641564 TestSudokuVerifier.java
+CompilationAction 1443691648457 TestSudokuVerifier.java
+CompilationAction 1443691648458 TestSudokuVerifier.java
+CompilationAction 1443691648629 TestSudokuVerifier.java
+CompilationAction 1443691648629 TestSudokuVerifier.java
+RefactoringAction 1443691655850 TestSudokuVerifier.java ADD String LONG_STRING FIELD
+CompilationAction 1443691656299 TestSudokuVerifier.java
+CompilationAction 1443691656300 TestSudokuVerifier.java
+CompilationAction 1443691656471 TestSudokuVerifier.java
+CompilationAction 1443691656472 TestSudokuVerifier.java
+CompilationAction 1443691662135 TestSudokuVerifier.java
+CompilationAction 1443691662135 TestSudokuVerifier.java
+CompilationAction 1443691662311 TestSudokuVerifier.java
+CompilationAction 1443691662311 TestSudokuVerifier.java
+EditAction 1443691666725 TestSudokuVerifier.java 1115 4 6 2
