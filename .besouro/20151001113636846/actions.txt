@@ -279,3 +279,4 @@ EditAction 1443691821316 TestSudokuVerifier.java 1419 5 9 4
 RefactoringAction 1443691984306 TestSudokuVerifier.java ADD String INCORRECT_STRING_ FIELD
 RefactoringAction 1443691994321 TestSudokuVerifier.java RENAME INCORRECT_STRING_=>String INCORRECT_STRING_COLUMNT_PROBLEM FIELD
 EditAction 1443691994695 TestSudokuVerifier.java 1489 5 9 4
+EditAction 1443691995773 TestSudokuVerifier.java 1578 5 9 4
