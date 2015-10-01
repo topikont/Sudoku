@@ -319,3 +319,8 @@ EditAction 1443692550221 TestSudokuVerifier.java 2273 7 13 6
 EditAction 1443692555548 TestSudokuVerifier.java 2354 7 13 6
 RefactoringAction 1443692577698 TestSudokuVerifier.java ADD void testIncorrectSudokuStringIncorrectSubgrids() METHOD
 EditAction 1443692595465 TestSudokuVerifier.java 2568 8 15 7
+UnitTestCaseAction 1443692599385 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443692599386 TestSudokuVerifier FAIL
+RefactoringAction 1443692626357 SudokuVerifier.java ADD Boolean checkSubGrid() METHOD
+RefactoringAction 1443692633894 SudokuVerifier.java RENAME checkSubGrid()=>Boolean checkSubGrid(String) METHOD
+EditAction 1443692634097 SudokuVerifier.java 1994 5 8 0

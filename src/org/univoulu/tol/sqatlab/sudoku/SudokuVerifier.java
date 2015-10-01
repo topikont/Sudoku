@@ -56,6 +56,10 @@ public class SudokuVerifier {
 		return true;
 	}
 	
+	private Boolean checkSubGrid(String cand) {
+		
+	}
+	
 	private Boolean checkSubString(String subString) {
 		
 		for(int i = 0; i < 9; i++) {
