@@ -306,3 +306,7 @@ UnitTestCaseAction 1443692116529 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443692116530 TestSudokuVerifier FAIL
 EditAction 1443692131828 SudokuVerifier.java 1938 4 8 0
 EditAction 1443692159413 SudokuVerifier.java 1941 4 8 0
+UnitTestCaseAction 1443692175065 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443692175065 TestSudokuVerifier OK
+RefactoringAction 1443692298304 TestSudokuVerifier.java ADD String INCORRECT_STRING_ROW_PROBLEM FIELD
+EditAction 1443692298594 TestSudokuVerifier.java 1849 6 11 5
