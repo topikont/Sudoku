@@ -316,3 +316,4 @@ RefactoringAction 1443692343508 TestSudokuVerifier.java ADD import com.sun.xml.i
 UnitTestCaseAction 1443692360056 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443692360056 TestSudokuVerifier OK
 EditAction 1443692550221 TestSudokuVerifier.java 2273 7 13 6
+EditAction 1443692555548 TestSudokuVerifier.java 2354 7 13 6
