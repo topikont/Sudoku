@@ -402,3 +402,6 @@ UnitTestCaseAction 1443695342846 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443695342847 TestSudokuVerifier FAIL
 RefactoringAction 1443695364034 TestSudokuVerifier.java REMOVE testIncorrectSudokuString() METHOD
 EditAction 1443695365273 TestSudokuVerifier.java 2391 7 13 6
+UnitTestCaseAction 1443695368646 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443695368647 TestSudokuVerifier OK
+EditAction 1443695381834 SudokuVerifier.java 2621 5 10 0
