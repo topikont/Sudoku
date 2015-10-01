@@ -64,7 +64,7 @@ public class SudokuVerifier {
 			for(int k = 0; k < 3; k++) {
 				String subString = "";
 				
-				int beginIndex = k * 3;
+				int beginIndex = k * 3 + i * 9;
 			}
 		}
 				
