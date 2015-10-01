@@ -311,3 +311,8 @@ UnitTestSessionAction 1443692175065 TestSudokuVerifier OK
 RefactoringAction 1443692298304 TestSudokuVerifier.java ADD String INCORRECT_STRING_ROW_PROBLEM FIELD
 EditAction 1443692298594 TestSudokuVerifier.java 1849 6 11 5
 EditAction 1443692305315 TestSudokuVerifier.java 1930 6 11 5
+RefactoringAction 1443692329441 TestSudokuVerifier.java ADD void testIncorrectSudokuStringIncorrectRows() METHOD
+RefactoringAction 1443692343508 TestSudokuVerifier.java ADD import com.sun.xml.internal.ws.policy.spi.AssertionCreationException IMPORT
+UnitTestCaseAction 1443692360056 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443692360056 TestSudokuVerifier OK
+EditAction 1443692550221 TestSudokuVerifier.java 2273 7 13 6
