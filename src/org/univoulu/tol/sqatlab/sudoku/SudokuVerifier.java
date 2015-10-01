@@ -16,7 +16,7 @@ public class SudokuVerifier {
 			int endIndex = beginIndex + 9;
 			String subString = candidateSolution.substring(beginIndex, endIndex);
 			
-			System.out.println(s);
+			System.out.println("Checking substring " + subString);
 			
 			if( !checkSubString(subString) ) {
 				return false;
@@ -37,8 +37,10 @@ public class SudokuVerifier {
 				
 				String character = subString.substring(k,k);
 				
+				System.out.println("Comparing " + digit + " to " + character);
+				
 				if( character.equals(digit)  ) {
-					System.out.println("Comparing " + digit + " to " + character);
+					
 					count++;
 				}
 			}
