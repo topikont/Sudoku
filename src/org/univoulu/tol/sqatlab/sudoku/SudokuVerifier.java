@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		if( candidateSolution.length() < 81) {
 			return RESULT_INCORRECT_STRING_TOO_SHORT;
 		} else if( candidateSolution.length() > 81) {
-			return RESULT_INCORRECT_STRING_TOO_SHORT;
+			return RESULT_INCORRECT_STRING_TOO_LONG;
 		} else if(!checkRow(candidateSolution)) {
 			return RESULT_INCORRECT_RULE_3;
 		} else if( !checkColumn(candidateSolution) ) {
