@@ -12,3 +12,5 @@ CompilationAction 1443688807034 TestSudokuVerifier.java
 RefactoringAction 1443688810533 TestSudokuVerifier.java ADD import org.junit.Before IMPORT
 CompilationAction 1443688822219 TestSudokuVerifier.java
 EditAction 1443688839533 SudokuVerifier.java 189 1 1 0
+RefactoringAction 1443688847029 TestSudokuVerifier.java REMOVE test2() METHOD
+EditAction 1443688848188 TestSudokuVerifier.java 335 2 2 0
