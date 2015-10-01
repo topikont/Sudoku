@@ -212,3 +212,5 @@ RefactoringAction 1443691440262 SudokuVerifier.java ADD int RESULT_CORRECT FIELD
 RefactoringAction 1443691448273 SudokuVerifier.java ADD int RESULT_ FIELD
 RefactoringAction 1443691460789 SudokuVerifier.java RENAME RESULT_=>int RESULT_INCORRECT_ FIELD
 EditAction 1443691464879 SudokuVerifier.java 1368 4 8 0
+CompilationAction 1443691465004 SudokuVerifier.java
+EditAction 1443691465365 SudokuVerifier.java 1369 4 8 0
