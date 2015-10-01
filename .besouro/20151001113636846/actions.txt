@@ -405,3 +405,6 @@ EditAction 1443695365273 TestSudokuVerifier.java 2391 7 13 6
 UnitTestCaseAction 1443695368646 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443695368647 TestSudokuVerifier OK
 EditAction 1443695381834 SudokuVerifier.java 2621 5 10 0
+RefactoringAction 1443695425593 SudokuVerifier.java RENAME RESULT_INCORRECT_RULE_1=>int RESULT_INCORRECT_POSITIVE_DITI FIELD
+RefactoringAction 1443695428612 SudokuVerifier.java RENAME RESULT_INCORRECT_POSITIVE_DITI=>int RESULT_INCORRECT_POSITIVE_DIGIT_PRO FIELD
+EditAction 1443695429472 SudokuVerifier.java 2637 5 10 0

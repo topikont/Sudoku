@@ -3,7 +3,7 @@ package org.univoulu.tol.sqatlab.sudoku;
 public class SudokuVerifier {
 
 	public static final int RESULT_CORRECT = 0;
-	public static final int RESULT_INCORRECT_RULE_1 = -1;
+	public static final int RESULT_INCORRECT_POSITIVE_DIGIT_PROBLEM = -1;
 	public static final int RESULT_INCORRECT_SUBGRID_PROBLEM = -2;
 	public static final int RESULT_INCORRECT_ROW_PROBLEM = -3;
 	public static final int RESULT_INCORRECT_COLUMN_PROBLEM = -4;
