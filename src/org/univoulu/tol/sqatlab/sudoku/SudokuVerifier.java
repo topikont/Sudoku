@@ -1,7 +1,5 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
@@ -35,7 +33,10 @@ public class SudokuVerifier {
 				
 				String digit = String.valueOf(i);
 				
+				String character = subString.substring(k,k);
+				
 				if( subString.substring(k, k).equals(digit)  ) {
+					System.out.println("Comparing " + digit + " to " + );
 					count++;
 				}
 			}
