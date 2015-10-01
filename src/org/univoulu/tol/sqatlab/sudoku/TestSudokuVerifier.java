@@ -30,7 +30,7 @@ public class TestSudokuVerifier {
 	public void testIncorrectSudokuString() {
 		int result = verifier.verify(INCORRECT_STRING);
 		
-		assertEquals(-3, result);
+		assertEquals(SudokuVerifier.RESULT_INCORRECT_RULE_3, result);
 	}
 	
 	@Test
