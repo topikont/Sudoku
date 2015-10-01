@@ -34,7 +34,7 @@ public class SudokuVerifier {
 				String digit = String.valueOf(i);
 				
 				if( subString.substring(k, k).equals(digit)  ) {
-					
+					count++;
 				}
 			}
 		}
