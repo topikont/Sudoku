@@ -36,7 +36,7 @@ public class SudokuVerifier {
 				String character = subString.substring(k,k);
 				
 				if( subString.substring(k, k).equals(digit)  ) {
-					System.out.println("Comparing " + digit + " to " + );
+					System.out.println("Comparing " + digit + " to " + character);
 					count++;
 				}
 			}
