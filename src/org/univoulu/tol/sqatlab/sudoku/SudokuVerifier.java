@@ -22,7 +22,9 @@ public class SudokuVerifier {
 		return true;
 	}
 	
-	private Boolean checkSubString() {
+	private Boolean checkSubString(String subString) {
 		
+		
+		return true;
 	}
 }
