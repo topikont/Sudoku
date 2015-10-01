@@ -173,3 +173,23 @@ CompilationAction 1443690713396 TestSudokuVerifier.java
 CompilationAction 1443690713396 TestSudokuVerifier.java
 CompilationAction 1443690713396 TestSudokuVerifier.java
 EditAction 1443690727200 TestSudokuVerifier.java 784 3 3 1
+CompilationAction 1443690727485 TestSudokuVerifier.java
+CompilationAction 1443690727485 TestSudokuVerifier.java
+CompilationAction 1443690727485 TestSudokuVerifier.java
+CompilationAction 1443690727486 TestSudokuVerifier.java
+CompilationAction 1443690727486 TestSudokuVerifier.java
+CompilationAction 1443690733462 TestSudokuVerifier.java
+CompilationAction 1443690733463 TestSudokuVerifier.java
+CompilationAction 1443690733463 TestSudokuVerifier.java
+CompilationAction 1443690733464 TestSudokuVerifier.java
+CompilationAction 1443690733464 TestSudokuVerifier.java
+CompilationAction 1443690733622 TestSudokuVerifier.java
+CompilationAction 1443690733623 TestSudokuVerifier.java
+CompilationAction 1443690733623 TestSudokuVerifier.java
+CompilationAction 1443690740371 TestSudokuVerifier.java
+CompilationAction 1443690740372 TestSudokuVerifier.java
+CompilationAction 1443690740372 TestSudokuVerifier.java
+UnitTestCaseAction 1443690743584 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690743584 TestSudokuVerifier OK
+RefactoringAction 1443690805120 SudokuVerifier.java ADD Boolean check FIELD
+EditAction 1443690809842 SudokuVerifier.java 1000 4 6 0
