@@ -16,3 +16,8 @@ RefactoringAction 1443688847029 TestSudokuVerifier.java REMOVE test2() METHOD
 EditAction 1443688848188 TestSudokuVerifier.java 335 2 2 0
 EditAction 1443688860643 TestSudokuVerifier.java 354 2 2 0
 EditAction 1443688868820 TestSudokuVerifier.java 361 2 2 0
+CompilationAction 1443688869041 TestSudokuVerifier.java
+CompilationAction 1443688875189 TestSudokuVerifier.java
+CompilationAction 1443688875856 TestSudokuVerifier.java
+CompilationAction 1443688879532 TestSudokuVerifier.java
+EditAction 1443688893042 TestSudokuVerifier.java 467 2 2 0

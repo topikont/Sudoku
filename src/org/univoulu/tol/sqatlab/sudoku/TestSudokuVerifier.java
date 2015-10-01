@@ -8,6 +8,7 @@ import org.junit.Test;
 public class TestSudokuVerifier {
 
 	private SudokuVerifier verifier;
+	private static final CORRECT_STRING = 
 	
 	@Before
 	public void init() {
@@ -17,6 +18,6 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testCorrectSudokuString() {
-		verifier.verify(candidateSolution);
+		verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
 	}
 }
