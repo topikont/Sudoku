@@ -17,6 +17,6 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testCorrectSudokuString() {
-		fail("Not yet implemented");
+		verifier.verify(candidateSolution);
 	}
 }
