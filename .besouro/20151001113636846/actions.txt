@@ -266,3 +266,4 @@ UnitTestCaseAction 1443691696977 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443691696977 TestSudokuVerifier OK
 RefactoringAction 1443691714073 TestSudokuVerifier.java ADD void test FIELD
 EditAction 1443691718218 TestSudokuVerifier.java 1237 5 7 3
+EditAction 1443691729454 TestSudokuVerifier.java 1278 5 7 3

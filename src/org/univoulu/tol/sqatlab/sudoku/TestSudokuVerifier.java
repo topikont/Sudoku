@@ -42,6 +42,6 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testTooLongString() {
-		
+		int result = verifier.verify(LONG_STRING)
 	}
 }
