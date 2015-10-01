@@ -23,6 +23,8 @@ public class SudokuVerifier {
 	}
 	
 	private Boolean checkSubString(String subString) {
+		//subString.
+		
 		
 		
 		return true;
