@@ -15,7 +15,7 @@ public class SudokuVerifier {
 			return RESULT_INCORRECT_STRING_TOO_SHORT;
 		} else if( candidateSolution.length() > 81) {
 			return RESULT_INCORRECT_STRING_TOO_LONG;
-		} else if( !checkSubGrid(cadidateSolution) ) {
+		} else if( !checkSubGrid(candidateSolution) ) {
 			return RESULT_INCORRECT_SUBGRID_PROBLEM;
 		} else if(!checkRow(candidateSolution)) {
 			return RESULT_INCORRECT_ROW_PROBLEM;
@@ -58,7 +58,11 @@ public class SudokuVerifier {
 		return true;
 	}
 	
-	private Boolean checkSubGrid(String cadidateSolution) {
+	private Boolean checkSubGrid(String candidateSolution) {
+		
+		for(int i = 0; i < 9; i++) {
+			
+		}
 		
 		return true;
 	}
