@@ -24,13 +24,13 @@ public class SudokuVerifier {
 		return true;
 	}
 	
-	private Boolean checkColumn() {
+	private Boolean checkColumn(String candidateSolution) {
 		
 		for(int i = 0; i < 9; i++) {
 			String subString = "";
 			
 			for(int k = 0; k < 9; k++) {
-				subString = subString + "";
+				subString = subString + candidateSolution.charAt(k**);
 			}
 		}
 		
