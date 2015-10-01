@@ -60,6 +60,10 @@ public class SudokuVerifier {
 	
 	private Boolean checkSubGrid(String candidateSolution) {
 		
+		for(int i = 0; i < 3; i++) {
+			
+		}
+				
 		for(int i = 0; i < 9; i++) {
 			String subString = "";
 			
