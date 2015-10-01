@@ -15,7 +15,6 @@ public class TestSudokuVerifier {
 		verifier = new SudokuVerifier();
 	}
 	
-	
 	@Test
 	public void testCorrectSudokuString() {
 		int result = verifier.verify(CORRECT_STRING);
