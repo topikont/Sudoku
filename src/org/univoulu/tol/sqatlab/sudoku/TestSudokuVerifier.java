@@ -56,7 +56,9 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testIncorrectSudokuStringUnvalidDigitsInString() {
-		int result = verifier.verify(candidateSolution)
+		int result = verifier.verify(INCORRECT_STRING_UNVALID_DIGIT_PROBLEM);
+		
+		assertEquals(SudokuVerifier.RESULT_INCORRECT_POSITIVE_DIGIT_PROBLEM, result);
 	}
 	
 	@Test
