@@ -18,7 +18,9 @@ public class SudokuVerifier {
 			int endIndex = beginIndex + 9;
 			String subString = candidateSolution.substring(beginIndex, endIndex);
 			
-			
+			if( !checkSubString(subString) ) {
+				
+			}
 		}
 		
 		return true;
