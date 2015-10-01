@@ -6,6 +6,11 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
+	SudokuVerifier verifier;
+	
+	@Before
+	
+	
 	@Test
 	public void test() {
 		fail("Not yet implemented");
