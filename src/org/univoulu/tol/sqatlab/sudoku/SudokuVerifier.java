@@ -62,6 +62,10 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 9; i++) {
 			String subString = "";
+			
+			for(int k = 0; k < 9; k++) {
+				
+			}
 		}
 		
 		return true;
