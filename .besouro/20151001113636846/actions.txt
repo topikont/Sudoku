@@ -324,3 +324,7 @@ UnitTestSessionAction 1443692599386 TestSudokuVerifier FAIL
 RefactoringAction 1443692626357 SudokuVerifier.java ADD Boolean checkSubGrid() METHOD
 RefactoringAction 1443692633894 SudokuVerifier.java RENAME checkSubGrid()=>Boolean checkSubGrid(String) METHOD
 EditAction 1443692634097 SudokuVerifier.java 1994 5 8 0
+CompilationAction 1443692634393 SudokuVerifier.java
+CompilationAction 1443692639607 SudokuVerifier.java
+CompilationAction 1443692639881 SudokuVerifier.java
+EditAction 1443692643394 SudokuVerifier.java 2021 5 9 0
