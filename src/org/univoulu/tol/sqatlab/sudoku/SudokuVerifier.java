@@ -47,7 +47,7 @@ public class SudokuVerifier {
 			String subString = "";
 			
 			for(int k = 0; k < 9; k++) {
-				subString = subString + candidateSolution.charAt(k*9);
+				subString = subString + candidateSolution.charAt(k*9+i);
 			}
 			
 			if(!checkSubString(subString)) {
@@ -63,9 +63,7 @@ public class SudokuVerifier {
 		for(int i = 0; i < 9; i++) {
 			String subString = "";
 			
-			for(int k = 0; k < 9; k++) {
-				
-			}
+			subString = subString + candidateSolution.charAt(index)
 		}
 		
 		return true;
