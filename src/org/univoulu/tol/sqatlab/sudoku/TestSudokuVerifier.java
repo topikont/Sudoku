@@ -21,4 +21,9 @@ public class TestSudokuVerifier {
 		
 		assertEquals(1, result);
 	}
+	
+	@Test
+	public void testIncorrectSudokuString() {
+		int result = verifier.verify(INCORRECT_STRING);
+	}
 }
