@@ -64,7 +64,7 @@ public class SudokuVerifier {
 			String subString = "";
 			
 			int beginIndex = i * 3;
-			
+			int endIndex = beginIndex + 2;
 			subString = subString + candidateSolution.substring(0, 2);
 			
 			subString = subString + candidateSolution.substring(9, 11);
