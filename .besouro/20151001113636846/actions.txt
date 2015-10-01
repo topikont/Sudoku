@@ -289,3 +289,10 @@ EditAction 1443692069105 SudokuVerifier.java 1899 4 8 0
 CompilationAction 1443692069384 TestSudokuVerifier.java
 RefactoringAction 1443692077464 SudokuVerifier.java RENAME RESULT_INCORRECT_RULE_3=>int RESULT_INCORRECT_ROW_PROBLEM FIELD
 EditAction 1443692081752 SudokuVerifier.java 1912 4 8 0
+CompilationAction 1443692082030 SudokuVerifier.java
+CompilationAction 1443692082030 SudokuVerifier.java
+CompilationAction 1443692082030 TestSudokuVerifier.java
+CompilationAction 1443692082030 TestSudokuVerifier.java
+CompilationAction 1443692095336 SudokuVerifier.java
+CompilationAction 1443692095336 SudokuVerifier.java
+EditAction 1443692102638 TestSudokuVerifier.java 1780 6 11 5
