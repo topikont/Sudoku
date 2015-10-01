@@ -35,8 +35,13 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testTooShortString() {
-		int result = verifier.verify(candidateSolution);
+		int result = verifier.verify(SHORT_STRING);
 		
-		assertArrayEquals(SudokuVerifier.RESULT_INCORRECT_STRING_TOO_SHORT, result);
+		assertEquals(SudokuVerifier.RESULT_INCORRECT_STRING_TOO_SHORT, result);
+	}
+	
+	@Test
+	public void testTooLongString() {
+		
 	}
 }
