@@ -26,6 +26,9 @@ public class SudokuVerifier {
 	
 	private Boolean checkColumn() {
 		
+		for(int i = 0; i < 9; i++) {
+			
+		}
 		
 		return true;
 	}
