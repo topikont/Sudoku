@@ -63,9 +63,13 @@ public class SudokuVerifier {
 		for(int i = 0; i < 9; i++) {
 			String subString = "";
 			
+			int beginIndex = i * 3;
+			
 			subString = subString + candidateSolution.charAt(i);
 			subString = subString + candidateSolution.charAt(i + 1);
 			subString = subString + candidateSolution.charAt(i + 2);
+			
+			subString = subString + candidateSolution.substring():;
 		}
 		
 		return true;
