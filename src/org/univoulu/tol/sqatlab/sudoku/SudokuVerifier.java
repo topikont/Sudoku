@@ -74,6 +74,10 @@ public class SudokuVerifier {
 			beginIndex = i * 3 + 18;
 			endIndex = beginIndex + 2;
 			subString = subString + candidateSolution.substring(beginIndex, endIndex);
+			
+			if(!checkSubString(subString)) {
+				return false;
+			}
 		}
 		
 		return true;
