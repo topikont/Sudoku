@@ -19,7 +19,7 @@ public class SudokuVerifier {
 			String subString = candidateSolution.substring(beginIndex, endIndex);
 			
 			if( !checkSubString(subString) ) {
-				
+				return false;
 			}
 		}
 		
