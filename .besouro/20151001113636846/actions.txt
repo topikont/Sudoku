@@ -415,3 +415,6 @@ RefactoringAction 1443695541711 TestSudokuVerifier.java ADD String CORRECT_STRIN
 RefactoringAction 1443695551238 TestSudokuVerifier.java RENAME CORRECT_STRING/2=>String INCORRECT_STRING/2 FIELD
 RefactoringAction 1443695553754 TestSudokuVerifier.java RENAME INCORRECT_STRING/2=>String INCORRECT_STRING_ FIELD
 EditAction 1443695560720 TestSudokuVerifier.java 2670 8 13 6
+CompilationAction 1443695560986 TestSudokuVerifier.java
+CompilationAction 1443695560986 TestSudokuVerifier.java
+EditAction 1443695564053 TestSudokuVerifier.java 2670 8 13 6
