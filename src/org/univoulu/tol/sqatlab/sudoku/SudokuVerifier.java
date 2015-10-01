@@ -61,7 +61,7 @@ public class SudokuVerifier {
 	private Boolean checkSubGrid(String candidateSolution) {
 		
 		for(int i = 0; i < 9; i++) {
-			
+			String subString = "";
 		}
 		
 		return true;
