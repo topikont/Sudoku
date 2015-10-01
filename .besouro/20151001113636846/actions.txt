@@ -165,3 +165,11 @@ UnitTestSessionAction 1443690621470 TestSudokuVerifier OK
 EditAction 1443690643385 SudokuVerifier.java 959 3 6 0
 RefactoringAction 1443690683536 TestSudokuVerifier.java ADD void testIncorrectSudokuString() METHOD
 EditAction 1443690690366 TestSudokuVerifier.java 635 3 4 1
+CompilationAction 1443690690689 TestSudokuVerifier.java
+CompilationAction 1443690713226 TestSudokuVerifier.java
+CompilationAction 1443690713395 TestSudokuVerifier.java
+CompilationAction 1443690713395 TestSudokuVerifier.java
+CompilationAction 1443690713396 TestSudokuVerifier.java
+CompilationAction 1443690713396 TestSudokuVerifier.java
+CompilationAction 1443690713396 TestSudokuVerifier.java
+EditAction 1443690727200 TestSudokuVerifier.java 784 3 3 1
