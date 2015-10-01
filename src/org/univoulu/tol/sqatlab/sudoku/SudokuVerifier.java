@@ -11,8 +11,8 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 9; i++) {
 			int beginIndex = i * 9;
-			int endIndex = beginIndex + 9
-			candidateSolution.substring(beginIndex, endIndex)
+			int endIndex = beginIndex + 9;
+			candidateSolution.substring(beginIndex, endIndex);
 		}
 		
 		return 1;
