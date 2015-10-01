@@ -283,3 +283,4 @@ EditAction 1443691995773 TestSudokuVerifier.java 1578 5 9 4
 CompilationAction 1443691996146 TestSudokuVerifier.java
 RefactoringAction 1443692008885 TestSudokuVerifier.java RENAME INCORRECT_STRING_COLUMNT_PROBLEM=>String INCORRECT_STRING_COLUMN_PROBLEM FIELD
 EditAction 1443692038151 TestSudokuVerifier.java 1643 6 9 4
+EditAction 1443692045893 TestSudokuVerifier.java 1704 6 9 4

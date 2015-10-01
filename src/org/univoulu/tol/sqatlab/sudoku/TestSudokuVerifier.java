@@ -37,7 +37,7 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testIncorrectSudokuStringIncorrectColumns() {
-		
+		int result = verifier.verify(INCORRECT_STRING_COLUMN_PROBLEM)
 	}
 	
 	@Test
