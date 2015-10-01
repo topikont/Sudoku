@@ -9,6 +9,10 @@ public class SudokuVerifier {
 	
 	private int checkRow(String candidateSolution) {
 		
+		for(int i = 0; i < 9; i++) {
+			
+		}
+		
 		return 1;
 	}
 }
