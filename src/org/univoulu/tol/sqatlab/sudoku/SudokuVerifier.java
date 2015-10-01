@@ -20,6 +20,7 @@ public class SudokuVerifier {
 		} else if( !checkColumn(candidateSolution) ) {
 			return RESULT_INCORRECT_COLUMN_PROBLEM;
 		}
+		
 		return RESULT_CORRECT;
 	}
 	
