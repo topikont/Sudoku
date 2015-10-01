@@ -25,7 +25,6 @@ public class SudokuVerifier {
 	}
 	
 	private Boolean checkSubString(String subString) {
-		//subString.
 		
 		for(int i = 0; i < 9; i++) {
 			int count = 0;
