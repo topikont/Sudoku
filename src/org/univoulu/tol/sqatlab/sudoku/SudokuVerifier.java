@@ -67,9 +67,9 @@ public class SudokuVerifier {
 				int beginIndex = i*27 + k*3;
 				int endIndex = beginIndex  + 2;
 				
-				subString = candidateSolution.substring(beginIndex, endIndex);
-				subString = candidateSolution.substring(beginIndex + 9, endIndex + 9);
-				subString = candidateSolution.substring(beginIndex + 18, endIndex + 18);
+				subString = subString + candidateSolution.substring(beginIndex, endIndex);
+				subString = subString + candidateSolution.substring(beginIndex + 9, endIndex + 9);
+				subString = subString + candidateSolution.substring(beginIndex + 18, endIndex + 18);
 				
 				System.out.println("Substring length: " + subString.length());
 				
