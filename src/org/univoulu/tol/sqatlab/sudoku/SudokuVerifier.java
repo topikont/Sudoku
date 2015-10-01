@@ -16,7 +16,7 @@ public class SudokuVerifier {
 		} else if( candidateSolution.length() > 81) {
 			return RESULT_INCORRECT_STRING_TOO_LONG;
 		} else if( candidateSolution.contains("0")) {
-			
+			return RESULT_INCORRECT_POSITIVE_DIGIT_PROBLEM;
 		} else if( !checkSubGrid(candidateSolution) ) {
 			return RESULT_INCORRECT_SUBGRID_PROBLEM;
 		} else if(!checkRow(candidateSolution)) {
