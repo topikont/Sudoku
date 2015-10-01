@@ -28,7 +28,7 @@ public class SudokuVerifier {
 		return RESULT_CORRECT;
 	}
 	
-	private Boolean checkRow(String candidateSolution) {
+	private Boolean checkRows(String candidateSolution) {
 		
 		for(int i = 0; i < 9; i++) {
 			int beginIndex = i * 9;
