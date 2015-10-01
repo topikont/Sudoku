@@ -1,5 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import com.sun.xml.internal.ws.util.StringUtils;
+
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
@@ -27,7 +29,11 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 9; i++) {
 			int count = 0;
-			count = StringUtils
+			for(int k = 0; i < 9; i++) {
+				if(subString.charAt(k)) {
+					
+				}
+			}
 		}
 		
 		return true;
