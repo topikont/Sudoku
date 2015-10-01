@@ -5,8 +5,8 @@ public class SudokuVerifier {
 	public static final int RESULT_CORRECT = 0;
 	public static final int RESULT_INCORRECT_RULE_1 = -1;
 	public static final int RESULT_INCORRECT_SUBGRID_PROBLEM = -2;
-	public static final int RESULT_INCORRECT_RULE_3 = -3;
-	public static final int RESULT_INCORRECT_RULE_4 = -4;
+	public static final int RESULT_INCORRECT_ROW_PROBLEM = -3;
+	public static final int RESULT_INCORRECT_COLUMN_PROBLEM = -4;
 	public static final int RESULT_INCORRECT_STRING_TOO_SHORT = -5;
 	public static final int RESULT_INCORRECT_STRING_TOO_LONG = -6;
 	
