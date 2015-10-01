@@ -231,3 +231,5 @@ CompilationAction 1443691593558 SudokuVerifier.java
 EditAction 1443691594049 SudokuVerifier.java 1849 4 8 0
 EditAction 1443691600935 SudokuVerifier.java 1870 4 8 0
 EditAction 1443691603690 SudokuVerifier.java 1891 4 8 0
+RefactoringAction 1443691612264 TestSudokuVerifier.java ADD void test FIELD
+EditAction 1443691622975 TestSudokuVerifier.java 850 4 5 2

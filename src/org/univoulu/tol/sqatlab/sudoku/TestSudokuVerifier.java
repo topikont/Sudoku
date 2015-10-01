@@ -29,4 +29,9 @@ public class TestSudokuVerifier {
 		
 		assertEquals(-3, result);
 	}
+	
+	@Test
+	public void testTooShortString() {
+		
+	}
 }
