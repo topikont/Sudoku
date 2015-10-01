@@ -18,7 +18,7 @@ public class SudokuVerifier {
 		} else if(!checkRow(candidateSolution)) {
 			return RESULT_INCORRECT_RULE_3;
 		} else if( !checkColumn(candidateSolution) ) {
-			return -4;
+			return RESULT_INCORRECT_RULE_4;
 		}
 		return 1;
 	}
