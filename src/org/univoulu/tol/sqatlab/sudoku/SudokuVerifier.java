@@ -7,7 +7,8 @@ public class SudokuVerifier {
 		return 1;
 	}
 	
-	private int checkRow() {
+	private int checkRow(String candidateSolution) {
 		
+		return 1
 	}
 }

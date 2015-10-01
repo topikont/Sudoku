@@ -52,3 +52,8 @@ UnitTestCaseAction 1443688989774 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443688989774 TestSudokuVerifier OK
 EditAction 1443689011380 TestSudokuVerifier.java 530 2 3 1
 EditAction 1443689310098 SudokuVerifier.java 223 2 1 0
+CompilationAction 1443689310360 SudokuVerifier.java
+RefactoringAction 1443689328291 SudokuVerifier.java RENAME checkRow()=>int checkRow(String) METHOD
+CompilationAction 1443689330861 SudokuVerifier.java
+CompilationAction 1443689331016 SudokuVerifier.java
+EditAction 1443689349312 SudokuVerifier.java 258 2 1 0
