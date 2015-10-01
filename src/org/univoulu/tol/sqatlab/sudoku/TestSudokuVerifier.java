@@ -19,5 +19,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testCorrectSudokuString() {
 		int result = verifier.verify(CORRECT_STRING);
+		
+		assertEquals(1, result);
 	}
 }
