@@ -37,10 +37,7 @@ public class SudokuVerifier {
 				
 				String character = String.valueOf(subString.charAt(k));
 				
-				System.out.println("Comparing " + digit + " to " + character);
-				
 				if( character.equals(digit)  ) {
-					
 					count++;
 				}
 			}
