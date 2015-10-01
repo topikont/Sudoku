@@ -9,6 +9,6 @@ public class SudokuVerifier {
 	
 	private int checkRow(String candidateSolution) {
 		
-		return 1
+		return 1;
 	}
 }
