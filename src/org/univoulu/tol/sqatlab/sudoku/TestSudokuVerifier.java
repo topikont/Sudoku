@@ -32,14 +32,14 @@ public class TestSudokuVerifier {
 	public void testIncorrectSudokuString() {
 		int result = verifier.verify(INCORRECT_STRING);
 		
-		assertEquals(SudokuVerifier.RESULT_INCORRECT_RULE_3, result);
+		assertEquals(SudokuVerifier.RESULT_INCORRECT_ROW_PROBLEM, result);
 	}
 	
 	@Test
 	public void testIncorrectSudokuStringIncorrectColumns() {
 		int result = verifier.verify(INCORRECT_STRING_COLUMN_PROBLEM);
 		
-		assertEquals(SudokuVerifier.RESULT_INCORRECT_COLUMN_PROBLEM, actual);
+		assertEquals(SudokuVerifier.RESULT_INCORRECT_COLUMN_PROBLEM, result);
 	}
 	
 	@Test

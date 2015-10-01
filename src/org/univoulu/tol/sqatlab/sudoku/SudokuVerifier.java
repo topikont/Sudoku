@@ -20,7 +20,7 @@ public class SudokuVerifier {
 		} else if( !checkColumn(candidateSolution) ) {
 			return RESULT_INCORRECT_COLUMN_PROBLEM;
 		}
-		return 1;
+		return RESULT_CORRECT;
 	}
 	
 	private Boolean checkRow(String candidateSolution) {
