@@ -11,4 +11,8 @@ public class TestSudokuVerifier {
 		fail("Not yet implemented");
 	}
 
+	@Test
+	public void test2() {
+		fail("test");
+	}
 }
