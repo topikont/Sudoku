@@ -33,7 +33,7 @@ public class SudokuVerifier {
 				
 				String digit = String.valueOf(i);
 				
-				if( subString.charAt(k) ==!  ) {
+				if( subString.substring(k, k).equals(digit)  ) {
 					
 				}
 			}
