@@ -30,7 +30,11 @@ public class SudokuVerifier {
 			String subString = "";
 			
 			for(int k = 0; k < 9; k++) {
-				subString = subString + candidateSolution.charAt(k**);
+				subString = subString + candidateSolution.charAt(k*9);
+			}
+			
+			if(!checkSubString(subString)) {
+				return false;
 			}
 		}
 		
