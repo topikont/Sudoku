@@ -69,7 +69,7 @@ public class SudokuVerifier {
 			subString = subString + candidateSolution.charAt(i + 1);
 			subString = subString + candidateSolution.charAt(i + 2);
 			
-			subString = subString + candidateSolution.substring():;
+			subString = subString + candidateSolution.substring(10, 12);
 		}
 		
 		return true;
