@@ -317,3 +317,5 @@ UnitTestCaseAction 1443692360056 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443692360056 TestSudokuVerifier OK
 EditAction 1443692550221 TestSudokuVerifier.java 2273 7 13 6
 EditAction 1443692555548 TestSudokuVerifier.java 2354 7 13 6
+RefactoringAction 1443692577698 TestSudokuVerifier.java ADD void testIncorrectSudokuStringIncorrectSubgrids() METHOD
+EditAction 1443692595465 TestSudokuVerifier.java 2568 8 15 7

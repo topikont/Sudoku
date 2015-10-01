@@ -55,6 +55,13 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
+	public void testIncorrectSudokuStringIncorrectSubgrids() {
+		int result = verifier.verify(INCORRECT_STRING_SUBGRID_PROBLEM);
+		
+		assertEquals(SudokuVerifier.RESULT_INCORRECT_SUBGRID_PROBLEM, result);
+	}
+	
+	@Test
 	public void testTooShortString() {
 		int result = verifier.verify(SHORT_STRING);
 		
