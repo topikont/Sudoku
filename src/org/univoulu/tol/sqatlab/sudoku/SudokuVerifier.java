@@ -13,6 +13,8 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		if( candidateSolution.length() < 81) {
 			return RESULT_INCORRECT_STRING_TOO_SHORT;
+		} else if( candidateSolution.length() > 81) {
+			
 		} else if(!checkRow(candidateSolution)) {
 			return -3;
 		} else if( !checkColumn(candidateSolution) ) {
