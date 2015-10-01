@@ -23,7 +23,7 @@ public class TestSudokuVerifier {
 	public void testCorrectSudokuString() {
 		int result = verifier.verify(CORRECT_STRING);
 		
-		assertEquals(1, result);
+		assertEquals(SudokuVerifier.RESULT_CORRECT, result);
 	}
 	
 	@Test
