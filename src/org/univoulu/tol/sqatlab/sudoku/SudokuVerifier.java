@@ -71,6 +71,9 @@ public class SudokuVerifier {
 				subString = candidateSolution.substring(beginIndex + 9, endIndex + 9);
 				subString = candidateSolution.substring(beginIndex + 18, endIndex + 18);
 				
+				if(!checkSubString(subString)) {
+					return false;
+				}
 			}
 		}
 				
