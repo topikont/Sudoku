@@ -10,7 +10,9 @@ public class SudokuVerifier {
 	public static final int RESULT_INCORRECT_STRING_TOO_SHORT = -5;
 	
 	public int verify(String candidateSolution) {
-		if(!checkRow(candidateSolution)) {
+		if() {
+			
+		} else if(!checkRow(candidateSolution)) {
 			return -3;
 		} else if( !checkColumn(candidateSolution) ) {
 			return -4;
