@@ -7,6 +7,7 @@ public class SudokuVerifier {
 	public static final int RESULT_INCORRECT_RULE_2 = -2;
 	public static final int RESULT_INCORRECT_RULE_3 = -3;
 	public static final int RESULT_INCORRECT_RULE_4 = -4;
+	public static final int RESULT_INCORRECT_STRING_TOO_SHORT = -5;
 	
 	public int verify(String candidateSolution) {
 		if(!checkRow(candidateSolution)) {
